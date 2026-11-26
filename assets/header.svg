@@ -1,42 +1,135 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">bdpq warm editorial profile banner</title>
-  <desc id="desc">Cream paper background, serif typography, burnt orange accents and an abstract magazine cover motif.</desc>
+  <title id="title">bdpq liquid glass editorial banner</title>
+  <desc id="desc">Warm cream background with flowing liquid color blobs, translucent glass panels, moving highlights and floating typography.</desc>
   <defs>
     <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#fbf7ef"/>
       <stop offset="1" stop-color="#eee5d5"/>
     </linearGradient>
+    <radialGradient id="orange" cx="35%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#ffb36b"/>
+      <stop offset="1" stop-color="#d95d39"/>
+    </radialGradient>
+    <radialGradient id="lilac" cx="30%" cy="25%" r="80%">
+      <stop offset="0" stop-color="#e4dcff"/>
+      <stop offset="1" stop-color="#9b8ac7"/>
+    </radialGradient>
+    <radialGradient id="sage" cx="35%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#c8d4b7"/>
+      <stop offset="1" stop-color="#73806a"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.72"/>
+      <stop offset="0.48" stop-color="#ffffff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.16"/>
+    </linearGradient>
+    <linearGradient id="glassStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#d95d39" stop-opacity="0.24"/>
+    </linearGradient>
+    <linearGradient id="darkGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2118" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#2b2118" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
     <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="3" cy="5" r="0.7" fill="#6b5542" opacity="0.12"/>
-      <circle cx="17" cy="14" r="0.5" fill="#6b5542" opacity="0.09"/>
+      <circle cx="3" cy="5" r="0.65" fill="#6b5542" opacity="0.1"/>
+      <circle cx="17" cy="14" r="0.45" fill="#6b5542" opacity="0.08"/>
     </pattern>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#5c4633" flood-opacity="0.12"/>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7"/></filter>
+    <filter id="liquid" x="-40%" y="-40%" width="180%" height="180%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.008 0.012" numOctaves="2" seed="7" result="noise">
+        <animate attributeName="baseFrequency" values="0.008 0.012;0.014 0.009;0.008 0.012" dur="14s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="24" xChannelSelector="R" yChannelSelector="B"/>
     </filter>
-    <clipPath id="frame"><rect width="1200" height="320" rx="8"/></clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#5c4633" flood-opacity="0.16"/>
+    </filter>
+    <clipPath id="mainClip"><rect x="54" y="58" width="730" height="204" rx="28"/></clipPath>
+    <clipPath id="termClip"><rect x="814" y="58" width="332" height="204" rx="28"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="320" rx="10"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
     <rect width="1200" height="320" fill="url(#paper)"/>
     <rect width="1200" height="320" fill="url(#grain)"/>
-    <path d="M52 36H1148M52 284H1148" stroke="#cdbdab" stroke-width="1"/>
-    <text x="54" y="25" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" letter-spacing="2.4">PERSONAL JOURNAL / ISSUE 01</text>
-    <text x="1146" y="25" text-anchor="end" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" letter-spacing="2.4">CODE · TOOLS · EVERYDAY PROBLEMS</text>
-    <rect x="54" y="62" width="5" height="176" fill="#d95d39"/>
-    <text x="82" y="89" fill="#d95d39" font-size="12" font-family="Arial, sans-serif" font-weight="700" letter-spacing="3.2">HELLO, I AM</text>
-    <text x="76" y="177" fill="#2b2118" font-size="92" font-family="Georgia, 'Times New Roman', serif" font-weight="700" letter-spacing="-5">bdpq<tspan fill="#d95d39">.</tspan></text>
-    <text x="82" y="215" fill="#4d4034" font-size="18" font-family="Georgia, 'Times New Roman', serif" font-style="italic">Notes on code, craft and useful little things.</text>
-    <text x="82" y="248" fill="#7c6958" font-size="13" font-family="'Microsoft YaHei', Arial, sans-serif">把日常问题，做成顺手的产品。</text>
-    <g transform="translate(850 55)" filter="url(#shadow)">
-      <rect width="294" height="210" rx="3" fill="#2b2118"/>
-      <rect x="15" y="15" width="264" height="180" fill="#f4ecdf"/>
-      <circle cx="244" cy="82" r="42" fill="#d95d39">
-        <animate attributeName="r" values="40;44;40" dur="8s" repeatCount="indefinite"/>
-      </circle>
-      <path d="M39 150H253M39 162H214M39 174H238" stroke="#b7a590" stroke-width="2"/>
-      <text x="39" y="49" fill="#2b2118" font-size="11" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">THE MAKING OF</text>
-      <text x="36" y="101" fill="#2b2118" font-size="36" font-family="Georgia, 'Times New Roman', serif" font-weight="700">USEFUL</text>
-      <text x="36" y="136" fill="#2b2118" font-size="36" font-family="Georgia, 'Times New Roman', serif" font-weight="700">THINGS</text>
-      <text x="244" y="89" text-anchor="middle" fill="#fbf7ef" font-size="21" font-family="Georgia, serif" font-style="italic">01</text>
+    <g filter="url(#liquid)">
+      <ellipse cx="120" cy="282" rx="190" ry="92" fill="url(#orange)" opacity="0.66">
+        <animate attributeName="cx" values="120;190;120" dur="13s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="282;245;282" dur="13s" repeatCount="indefinite"/>
+        <animate attributeName="rx" values="190;220;190" dur="13s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="1070" cy="55" rx="205" ry="112" fill="url(#lilac)" opacity="0.64">
+        <animate attributeName="cx" values="1070;1010;1070" dur="16s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="55;98;55" dur="16s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="760" cy="305" rx="210" ry="72" fill="url(#sage)" opacity="0.48">
+        <animate attributeName="cx" values="760;690;760" dur="18s" repeatCount="indefinite"/>
+        <animate attributeName="rx" values="210;245;210" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <g filter="url(#blur)" opacity="0.55">
+      <circle cx="305" cy="80" r="46" fill="#ffd7a8"/>
+      <circle cx="960" cy="245" r="58" fill="#d8cdf2"/>
+    </g>
+    <text x="54" y="27" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" letter-spacing="2.4">PERSONAL JOURNAL / ISSUE 01</text>
+    <text x="1146" y="27" text-anchor="end" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" letter-spacing="2.4">CODE · TOOLS · EVERYDAY PROBLEMS</text>
+    <g filter="url(#shadow)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="8s" repeatCount="indefinite"/>
+      <rect x="54" y="58" width="730" height="204" rx="28" fill="url(#glass)" stroke="url(#glassStroke)" stroke-width="1.4"/>
+      <g clip-path="url(#mainClip)">
+        <rect x="-160" y="20" width="150" height="300" fill="url(#shine)" opacity="0.65" transform="rotate(18 200 160)">
+          <animateTransform attributeName="transform" type="translate" values="0 0;1050 0" dur="7s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <rect x="76" y="80" width="5" height="154" rx="2.5" fill="#d95d39" opacity="0.9"/>
+      <text x="103" y="103" fill="#b64c2d" font-size="11" font-family="Arial, sans-serif" font-weight="700" letter-spacing="3">HELLO, I AM</text>
+      <text x="97" y="179" fill="#2b2118" font-size="80" font-family="Georgia, 'Times New Roman', serif" font-weight="700" letter-spacing="-4">bdpq<tspan fill="#d95d39">.</tspan></text>
+      <text x="103" y="211" fill="#4d4034" font-size="16" font-family="Georgia, 'Times New Roman', serif" font-style="italic">Notes on code, craft and useful little things.</text>
+      <text x="103" y="239" fill="#7c6958" font-size="12" font-family="'Microsoft YaHei', Arial, sans-serif">把日常问题，做成顺手的产品。</text>
+      <circle cx="716" cy="112" r="31" fill="#d95d39" opacity="0.88"/>
+      <text x="716" y="120" text-anchor="middle" fill="#fbf7ef" font-size="21" font-family="Georgia, serif" font-style="italic">01</text>
+    </g>
+    <g filter="url(#shadow)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="9s" repeatCount="indefinite"/>
+      <rect x="814" y="58" width="332" height="204" rx="28" fill="url(#darkGlass)" stroke="#ffffff" stroke-opacity="0.32" stroke-width="1.2"/>
+      <g clip-path="url(#termClip)">
+        <rect x="650" y="20" width="110" height="300" fill="url(#shine)" opacity="0.22" transform="rotate(18 750 160)">
+          <animateTransform attributeName="transform" type="translate" values="0 0;850 0" dur="6s" begin="-2s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <circle cx="842" cy="84" r="4" fill="#ff8a70"/>
+      <circle cx="856" cy="84" r="4" fill="#f5c451"/>
+      <circle cx="870" cy="84" r="4" fill="#9bc784"/>
+      <text x="1118" y="87" text-anchor="end" fill="#c9bca9" font-size="8" font-family="Consolas, monospace">bdpq@workspace</text>
+      <g font-family="Consolas, monospace" font-size="11">
+        <text x="842" y="120" fill="#a99d8c">$ cat focus.txt</text>
+        <text x="842" y="148" fill="#ffd0a8">
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.18;0.62;0.72;1" dur="8s" repeatCount="indefinite"/>
+          &gt; mobile: Android + Flutter
+        </text>
+        <text x="842" y="175" fill="#d9cff2">
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3;0.4;0.82;0.92;1" dur="8s" repeatCount="indefinite"/>
+          &gt; desktop: Electron + Qt
+        </text>
+        <text x="842" y="202" fill="#fbf7ef">
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.52;0.62;0.96;1;1" dur="8s" repeatCount="indefinite"/>
+          &gt; data: local-first
+        </text>
+        <text x="842" y="234" fill="#a99d8c">$ <tspan fill="#ffb36b">_</tspan></text>
+      </g>
+    </g>
+    <g filter="url(#shadow)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="6s" repeatCount="indefinite"/>
+      <rect x="622" y="243" width="156" height="34" rx="17" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.75"/>
+      <circle cx="642" cy="260" r="4" fill="#d95d39"/>
+      <text x="655" y="264" fill="#5c4938" font-size="9" font-family="Arial, sans-serif" font-weight="700" letter-spacing="1.3">LOCAL FIRST</text>
     </g>
     <text x="54" y="307" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" letter-spacing="2.2">ANDROID / FLUTTER / DESKTOP</text>
     <text x="1146" y="307" text-anchor="end" fill="#d95d39" font-size="10" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2.2">EST. 2012</text>

@@ -1,65 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
-  <title id="title">Editorial technology stack</title>
-  <desc id="desc">Warm cream toolkit card featuring Kotlin, Flutter, Dart, Android, Compose, TypeScript, Electron, Vue, Python and SQLite.</desc>
+  <title id="title">Liquid glass technology toolkit</title>
+  <desc id="desc">Warm glass tiles with liquid color blobs, floating animation and moving highlights.</desc>
   <defs>
-    <pattern id="paper" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="4" cy="4" r="0.55" fill="#7c6958" opacity="0.1"/>
-    </pattern>
+    <radialGradient id="orange" cx="35%" cy="30%" r="75%"><stop offset="0" stop-color="#ffb36b"/><stop offset="1" stop-color="#d95d39"/></radialGradient>
+    <radialGradient id="lilac" cx="30%" cy="25%" r="80%"><stop offset="0" stop-color="#e4dcff"/><stop offset="1" stop-color="#9b8ac7"/></radialGradient>
+    <radialGradient id="sage" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#c8d4b7"/><stop offset="1" stop-color="#73806a"/></radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.68"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.2"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.75"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#5c4633" flood-opacity="0.12"/></filter>
+    <clipPath id="panel"><rect width="1200" height="190" rx="18"/></clipPath>
   </defs>
-  <rect width="1200" height="190" rx="6" fill="#fbf7ef" stroke="#d4c5b3"/>
-  <rect width="1200" height="190" rx="6" fill="url(#paper)"/>
-  <text x="28" y="30" fill="#8a735f" font-size="10" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2.6">THE TOOLKIT / FIELD NOTES</text>
-  <path d="M28 40H1172" stroke="#d4c5b3"/>
-  <g font-family="Arial, sans-serif">
-    <g transform="translate(28 51)">
-      <rect width="106" height="112" fill="#f3ecdf" stroke="#d4c5b3"/>
-      <text x="53" y="45" text-anchor="middle" fill="#7f52ff" font-size="25" font-family="Georgia, serif" font-weight="700">Kt</text>
-      <text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Kotlin</text>
+  <g clip-path="url(#panel)">
+    <rect width="1200" height="190" fill="#f3ecdf"/>
+    <g filter="url(#blur)" opacity="0.72">
+      <ellipse cx="110" cy="165" rx="170" ry="70" fill="url(#orange)">
+        <animate attributeName="cx" values="110;180;110" dur="12s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="590" cy="30" rx="190" ry="75" fill="url(#lilac)">
+        <animate attributeName="cy" values="30;55;30" dur="14s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="1080" cy="160" rx="180" ry="68" fill="url(#sage)">
+        <animate attributeName="cx" values="1080;1010;1080" dur="16s" repeatCount="indefinite"/>
+      </ellipse>
     </g>
-    <g transform="translate(146 51)">
-      <rect width="106" height="112" fill="#fbf7ef" stroke="#d4c5b3"/>
-      <text x="53" y="45" text-anchor="middle" fill="#02569b" font-size="25" font-family="Georgia, serif" font-weight="700">Fl</text>
-      <text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Flutter</text>
-    </g>
-    <g transform="translate(264 51)">
-      <rect width="106" height="112" fill="#f3ecdf" stroke="#d4c5b3"/>
-      <text x="53" y="45" text-anchor="middle" fill="#0175c2" font-size="25" font-family="Georgia, serif" font-weight="700">D</text>
-      <text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Dart</text>
-    </g>
-    <g transform="translate(382 51)">
-      <rect width="106" height="112" fill="#fbf7ef" stroke="#d4c5b3"/>
-      <text x="53" y="45" text-anchor="middle" fill="#3ddc84" font-size="25" font-family="Georgia, serif" font-weight="700">A</text>
-      <text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Android</text>
-    </g>
-    <g transform="translate(500 51)">
-      <rect width="106" height="112" fill="#f3ecdf" stroke="#d4c5b3"/>
-      <text x="53" y="44" text-anchor="middle" fill="#4285f4" font-size="21" font-family="Georgia, serif" font-weight="700">JC</text>
-      <text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="11" font-weight="700">Compose</text>
-    </g>
-    <g transform="translate(618 51)">
-      <rect width="106" height="112" fill="#fbf7ef" stroke="#d4c5b3"/>
-      <text x="53" y="45" text-anchor="middle" fill="#3178c6" font-size="22" font-family="Georgia, serif" font-weight="700">TS</text>
-      <text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="11" font-weight="700">TypeScript</text>
-    </g>
-    <g transform="translate(736 51)">
-      <rect width="106" height="112" fill="#f3ecdf" stroke="#d4c5b3"/>
-      <text x="53" y="45" text-anchor="middle" fill="#47848f" font-size="24" font-family="Georgia, serif" font-weight="700">El</text>
-      <text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Electron</text>
-    </g>
-    <g transform="translate(854 51)">
-      <rect width="106" height="112" fill="#fbf7ef" stroke="#d4c5b3"/>
-      <text x="53" y="45" text-anchor="middle" fill="#42b883" font-size="24" font-family="Georgia, serif" font-weight="700">V</text>
-      <text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Vue.js</text>
-    </g>
-    <g transform="translate(972 51)">
-      <rect width="106" height="112" fill="#f3ecdf" stroke="#d4c5b3"/>
-      <text x="53" y="45" text-anchor="middle" fill="#b07a16" font-size="23" font-family="Georgia, serif" font-weight="700">Py</text>
-      <text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Python</text>
-    </g>
-    <g transform="translate(1090 51)">
-      <rect width="82" height="112" fill="#fbf7ef" stroke="#d4c5b3"/>
-      <text x="41" y="45" text-anchor="middle" fill="#5b6d78" font-size="18" font-family="Georgia, serif" font-weight="700">SQL</text>
-      <text x="41" y="88" text-anchor="middle" fill="#3e3329" font-size="11" font-weight="700">SQLite</text>
+    <rect x="8" y="8" width="1184" height="174" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.72" stroke-width="1.2"/>
+    <rect x="-180" y="0" width="130" height="190" fill="url(#shine)" opacity="0.55" transform="rotate(14 600 95)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;1500 0" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="28" y="31" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2.6">THE TOOLKIT / FIELD NOTES</text>
+    <path d="M28 41H1172" stroke="#ffffff" stroke-opacity="0.65"/>
+    <g font-family="Arial, sans-serif" filter="url(#shadow)">
+      <g transform="translate(28 51)"><animateTransform attributeName="transform" type="translate" values="28 51;28 47;28 51" dur="5s" repeatCount="indefinite"/><rect width="106" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="53" y="45" text-anchor="middle" fill="#7f52ff" font-size="25" font-family="Georgia, serif" font-weight="700">Kt</text><text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Kotlin</text></g>
+      <g transform="translate(146 51)"><animateTransform attributeName="transform" type="translate" values="146 51;146 47;146 51" dur="5.6s" begin="-1s" repeatCount="indefinite"/><rect width="106" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="53" y="45" text-anchor="middle" fill="#02569b" font-size="25" font-family="Georgia, serif" font-weight="700">Fl</text><text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Flutter</text></g>
+      <g transform="translate(264 51)"><animateTransform attributeName="transform" type="translate" values="264 51;264 47;264 51" dur="6.2s" begin="-2s" repeatCount="indefinite"/><rect width="106" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="53" y="45" text-anchor="middle" fill="#0175c2" font-size="25" font-family="Georgia, serif" font-weight="700">D</text><text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Dart</text></g>
+      <g transform="translate(382 51)"><animateTransform attributeName="transform" type="translate" values="382 51;382 47;382 51" dur="5.4s" begin="-3s" repeatCount="indefinite"/><rect width="106" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="53" y="45" text-anchor="middle" fill="#3ddc84" font-size="25" font-family="Georgia, serif" font-weight="700">A</text><text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Android</text></g>
+      <g transform="translate(500 51)"><animateTransform attributeName="transform" type="translate" values="500 51;500 47;500 51" dur="6.6s" begin="-4s" repeatCount="indefinite"/><rect width="106" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="53" y="44" text-anchor="middle" fill="#4285f4" font-size="21" font-family="Georgia, serif" font-weight="700">JC</text><text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="11" font-weight="700">Compose</text></g>
+      <g transform="translate(618 51)"><animateTransform attributeName="transform" type="translate" values="618 51;618 47;618 51" dur="5.8s" begin="-1.5s" repeatCount="indefinite"/><rect width="106" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="53" y="45" text-anchor="middle" fill="#3178c6" font-size="22" font-family="Georgia, serif" font-weight="700">TS</text><text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="11" font-weight="700">TypeScript</text></g>
+      <g transform="translate(736 51)"><animateTransform attributeName="transform" type="translate" values="736 51;736 47;736 51" dur="6.4s" begin="-2.5s" repeatCount="indefinite"/><rect width="106" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="53" y="45" text-anchor="middle" fill="#47848f" font-size="24" font-family="Georgia, serif" font-weight="700">El</text><text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Electron</text></g>
+      <g transform="translate(854 51)"><animateTransform attributeName="transform" type="translate" values="854 51;854 47;854 51" dur="5.2s" begin="-3.5s" repeatCount="indefinite"/><rect width="106" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="53" y="45" text-anchor="middle" fill="#42b883" font-size="24" font-family="Georgia, serif" font-weight="700">V</text><text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Vue.js</text></g>
+      <g transform="translate(972 51)"><animateTransform attributeName="transform" type="translate" values="972 51;972 47;972 51" dur="6.8s" begin="-4.5s" repeatCount="indefinite"/><rect width="106" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="53" y="45" text-anchor="middle" fill="#b07a16" font-size="23" font-family="Georgia, serif" font-weight="700">Py</text><text x="53" y="88" text-anchor="middle" fill="#3e3329" font-size="12" font-weight="700">Python</text></g>
+      <g transform="translate(1090 51)"><animateTransform attributeName="transform" type="translate" values="1090 51;1090 47;1090 51" dur="5.6s" begin="-2s" repeatCount="indefinite"/><rect width="82" height="112" rx="12" fill="#ffffff" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.75"/><text x="41" y="45" text-anchor="middle" fill="#5b6d78" font-size="18" font-family="Georgia, serif" font-weight="700">SQL</text><text x="41" y="88" text-anchor="middle" fill="#3e3329" font-size="11" font-weight="700">SQLite</text></g>
     </g>
   </g>
 </svg>
