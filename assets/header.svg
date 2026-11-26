@@ -1,81 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">bdpq profile banner</title>
-  <desc id="desc">Animated neon green developer banner with a terminal window.</desc>
+  <title id="title">bdpq warm editorial profile banner</title>
+  <desc id="desc">Cream paper background, serif typography, burnt orange accents and an abstract magazine cover motif.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="0.55" stop-color="#171d18"/>
-      <stop offset="1" stop-color="#0d1117"/>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf7ef"/>
+      <stop offset="1" stop-color="#eee5d5"/>
     </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0" stop-color="#c8ff4d" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#c8ff4d" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#74a81c"/>
-      <stop offset="0.5" stop-color="#c8ff4d"/>
-      <stop offset="1" stop-color="#74a81c"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#c8ff4d" stroke-opacity="0.07" stroke-width="1"/>
+    <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="5" r="0.7" fill="#6b5542" opacity="0.12"/>
+      <circle cx="17" cy="14" r="0.5" fill="#6b5542" opacity="0.09"/>
     </pattern>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#5c4633" flood-opacity="0.12"/>
     </filter>
-    <clipPath id="frame"><rect width="1200" height="320" rx="24"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="320" rx="8"/></clipPath>
   </defs>
   <g clip-path="url(#frame)">
-    <rect width="1200" height="320" fill="url(#bg)"/>
-    <rect width="1200" height="320" fill="url(#grid)"/>
-    <circle cx="1030" cy="70" r="250" fill="url(#glow)">
-      <animate attributeName="r" values="220;270;220" dur="8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="85" cy="295" r="190" fill="url(#glow)" opacity="0.55"/>
-    <g fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.32">
-      <path d="M-80 268C120 188 205 302 390 228S690 146 842 232s268 18 438-72">
-        <animateTransform attributeName="transform" type="translate" values="0 0;38 -8;0 0" dur="11s" repeatCount="indefinite"/>
-      </path>
-      <path d="M-80 286C120 206 205 320 390 246S690 164 842 250s268 18 438-72" opacity="0.45">
-        <animateTransform attributeName="transform" type="translate" values="0 0;-32 10;0 0" dur="13s" repeatCount="indefinite"/>
-      </path>
+    <rect width="1200" height="320" fill="url(#paper)"/>
+    <rect width="1200" height="320" fill="url(#grain)"/>
+    <path d="M52 36H1148M52 284H1148" stroke="#cdbdab" stroke-width="1"/>
+    <text x="54" y="25" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" letter-spacing="2.4">PERSONAL JOURNAL / ISSUE 01</text>
+    <text x="1146" y="25" text-anchor="end" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" letter-spacing="2.4">CODE · TOOLS · EVERYDAY PROBLEMS</text>
+    <rect x="54" y="62" width="5" height="176" fill="#d95d39"/>
+    <text x="82" y="89" fill="#d95d39" font-size="12" font-family="Arial, sans-serif" font-weight="700" letter-spacing="3.2">HELLO, I AM</text>
+    <text x="76" y="177" fill="#2b2118" font-size="92" font-family="Georgia, 'Times New Roman', serif" font-weight="700" letter-spacing="-5">bdpq<tspan fill="#d95d39">.</tspan></text>
+    <text x="82" y="215" fill="#4d4034" font-size="18" font-family="Georgia, 'Times New Roman', serif" font-style="italic">Notes on code, craft and useful little things.</text>
+    <text x="82" y="248" fill="#7c6958" font-size="13" font-family="'Microsoft YaHei', Arial, sans-serif">把日常问题，做成顺手的产品。</text>
+    <g transform="translate(850 55)" filter="url(#shadow)">
+      <rect width="294" height="210" rx="3" fill="#2b2118"/>
+      <rect x="15" y="15" width="264" height="180" fill="#f4ecdf"/>
+      <circle cx="226" cy="82" r="58" fill="#d95d39">
+        <animate attributeName="r" values="55;60;55" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M39 150H253M39 162H214M39 174H238" stroke="#b7a590" stroke-width="2"/>
+      <text x="39" y="49" fill="#2b2118" font-size="11" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">THE MAKING OF</text>
+      <text x="36" y="101" fill="#2b2118" font-size="42" font-family="Georgia, 'Times New Roman', serif" font-weight="700">USEFUL</text>
+      <text x="36" y="136" fill="#2b2118" font-size="42" font-family="Georgia, 'Times New Roman', serif" font-weight="700">THINGS</text>
+      <text x="226" y="88" text-anchor="middle" fill="#fbf7ef" font-size="24" font-family="Georgia, serif" font-style="italic">01</text>
     </g>
-    <g font-family="Segoe UI, Arial, sans-serif">
-      <text x="66" y="78" fill="#9aa68f" font-size="14" font-weight="600" letter-spacing="4">HELLO, I AM</text>
-      <text x="62" y="158" fill="#f4f7ee" font-size="78" font-weight="800" letter-spacing="-4">bdpq<tspan fill="#c8ff4d">.</tspan></text>
-      <text x="66" y="202" fill="#c8ff4d" font-size="20" font-weight="600">Android / Flutter / Desktop Tools</text>
-      <text x="66" y="238" fill="#94a08a" font-size="15">把日常问题，做成顺手的产品。</text>
-      <g transform="translate(67 270)">
-        <rect width="260" height="28" rx="14" fill="#20291d" stroke="#3c4b31"/>
-        <circle cx="17" cy="14" r="4" fill="#c8ff4d" filter="url(#softGlow)"/>
-        <text x="30" y="19" fill="#b8c5aa" font-size="11" font-family="Consolas, monospace" letter-spacing="1.2">BUILDING USEFUL THINGS</text>
-      </g>
-    </g>
-    <g transform="translate(690 58)">
-      <rect width="440" height="206" rx="14" fill="#101510" stroke="#36422f"/>
-      <rect width="440" height="35" rx="14" fill="#1b2319"/>
-      <rect y="21" width="440" height="14" fill="#1b2319"/>
-      <circle cx="20" cy="17.5" r="4.5" fill="#ff796d"/>
-      <circle cx="35" cy="17.5" r="4.5" fill="#f5c451"/>
-      <circle cx="50" cy="17.5" r="4.5" fill="#7ecb78"/>
-      <text x="326" y="21" fill="#718067" font-size="9" font-family="Consolas, monospace">bdpq@workspace</text>
-      <g font-family="Consolas, monospace" font-size="13">
-        <text x="24" y="65" fill="#6f7e64">$ cat focus.txt</text>
-        <text x="24" y="94" fill="#c8ff4d">
-          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.18;0.58;0.68;1" dur="9s" repeatCount="indefinite"/>
-          &gt; mobile: Android + Flutter
-        </text>
-        <text x="24" y="120" fill="#c9bcff">
-          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3;0.4;0.78;0.88;1" dur="9s" repeatCount="indefinite"/>
-          &gt; desktop: Electron + Qt
-        </text>
-        <text x="24" y="146" fill="#f4f7ee">
-          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.52;0.62;0.96;1;1" dur="9s" repeatCount="indefinite"/>
-          &gt; data: local-first
-        </text>
-        <text x="24" y="180" fill="#6f7e64">$ <tspan fill="#c8ff4d">_</tspan></text>
-      </g>
-    </g>
-    <path d="M0 316H1200" stroke="url(#neon)" stroke-width="3" opacity="0.75"/>
+    <text x="54" y="307" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" letter-spacing="2.2">ANDROID / FLUTTER / DESKTOP</text>
+    <text x="1146" y="307" text-anchor="end" fill="#d95d39" font-size="10" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2.2">EST. 2012</text>
   </g>
 </svg>
