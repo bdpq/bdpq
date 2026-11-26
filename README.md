@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/bdpq/bdpq/866bc5ef5f3f25ad4bbbbfce5bf07d118d7c4696/assets/header.svg" width="100%" alt="bdpq warm editorial profile banner" />
+<img src="https://raw.githubusercontent.com/bdpq/bdpq/4b394981d2959b79538654b921bdb6caf3064b84/assets/header.svg" width="100%" alt="bdpq warm editorial profile banner" />
 
 ### 把日常问题，做成顺手的产品。
 
