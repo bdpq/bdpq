@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/bdpq/bdpq/main/assets/header.svg" width="100%" alt="bdpq warm editorial profile banner" />
+<img src="https://raw.githubusercontent.com/bdpq/bdpq/866bc5ef5f3f25ad4bbbbfce5bf07d118d7c4696/assets/header.svg" width="100%" alt="bdpq warm editorial profile banner" />
 
 ### 把日常问题，做成顺手的产品。
 
@@ -34,7 +34,7 @@ Android / Flutter 开发者，喜欢把生活里的小麻烦变成真正可用�
 ## 02 / THE TOOLKIT
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/bdpq/bdpq/main/assets/tech-stack.svg" width="100%" alt="Kotlin Flutter Dart Android Jetpack Compose TypeScript Electron Vue Python SQLite" />
+  <img src="https://raw.githubusercontent.com/bdpq/bdpq/39c1f69061add67fc8925a1f191dfa3b45d1132c/assets/tech-stack.svg" width="100%" alt="Kotlin Flutter Dart Android Jetpack Compose TypeScript Electron Vue Python SQLite" />
 </div>
 
 <p align="center">
@@ -52,7 +52,7 @@ Android / Flutter 开发者，喜欢把生活里的小麻烦变成真正可用�
 ## 03 / COVER STORY
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/bdpq/bdpq/main/assets/feature.svg" width="100%" alt="Editorial spread featuring CalendarDiary, Bookkeeping and Stock Monitor" />
+  <img src="https://raw.githubusercontent.com/bdpq/bdpq/93787e174e661b1c61fe21ae95860bc5855dc781/assets/feature.svg" width="100%" alt="Editorial spread featuring CalendarDiary, Bookkeeping and Stock Monitor" />
 </div>
 
 ### CalendarDiary — 一本会提醒你的离线日记
@@ -101,6 +101,6 @@ Android / Flutter 开发者，喜欢把生活里的小麻烦变成真正可用�
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/bdpq/bdpq/main/assets/footer.svg" width="100%" alt="Thank you for reading, see you in the next commit" />
+<img src="https://raw.githubusercontent.com/bdpq/bdpq/1be5c59b6afc855a836b77bcd3c0bd3243b6246d/assets/footer.svg" width="100%" alt="Thank you for reading, see you in the next commit" />
 
 </div>
