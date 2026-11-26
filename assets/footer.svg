@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="86" viewBox="0 0 1200 86" role="img" aria-labelledby="title desc">
+  <title id="title">Profile footer</title>
+  <desc id="desc">Neon green wave footer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.5" stop-color="#1b2319"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#74a81c"/>
+      <stop offset="0.5" stop-color="#c8ff4d"/>
+      <stop offset="1" stop-color="#74a81c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="86" rx="18" fill="url(#bg)"/>
+  <path d="M0 54C180 18 280 72 450 44S760 14 920 46s202 18 280-4" fill="none" stroke="url(#line)" stroke-width="2" opacity="0.7">
+    <animate attributeName="d" values="M0 54C180 18 280 72 450 44S760 14 920 46s202 18 280-4;M0 44C180 72 280 18 450 46S760 72 920 34s202-18 280 4;M0 54C180 18 280 72 450 44S760 14 920 46s202 18 280-4" dur="9s" repeatCount="indefinite"/>
+  </path>
+  <text x="600" y="38" text-anchor="middle" fill="#c8ff4d" font-size="13" font-family="Consolas, monospace" letter-spacing="3">BUILD USEFUL THINGS · KEEP DATA LOCAL · POLISH THE DETAILS</text>
+</svg>
