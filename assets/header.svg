@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">bdpq profile banner</title>
+  <desc id="desc">Animated neon green developer banner with a terminal window.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="0.55" stop-color="#171d18"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#c8ff4d" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#c8ff4d" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#74a81c"/>
+      <stop offset="0.5" stop-color="#c8ff4d"/>
+      <stop offset="1" stop-color="#74a81c"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#c8ff4d" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="320" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="1030" cy="70" r="250" fill="url(#glow)">
+      <animate attributeName="r" values="220;270;220" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="85" cy="295" r="190" fill="url(#glow)" opacity="0.55"/>
+    <g fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.32">
+      <path d="M-80 268C120 188 205 302 390 228S690 146 842 232s268 18 438-72">
+        <animateTransform attributeName="transform" type="translate" values="0 0;38 -8;0 0" dur="11s" repeatCount="indefinite"/>
+      </path>
+      <path d="M-80 286C120 206 205 320 390 246S690 164 842 250s268 18 438-72" opacity="0.45">
+        <animateTransform attributeName="transform" type="translate" values="0 0;-32 10;0 0" dur="13s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="66" y="78" fill="#9aa68f" font-size="14" font-weight="600" letter-spacing="4">HELLO, I AM</text>
+      <text x="62" y="158" fill="#f4f7ee" font-size="78" font-weight="800" letter-spacing="-4">bdpq<tspan fill="#c8ff4d">.</tspan></text>
+      <text x="66" y="202" fill="#c8ff4d" font-size="20" font-weight="600">Android / Flutter / Desktop Tools</text>
+      <text x="66" y="238" fill="#94a08a" font-size="15">把日常问题，做成顺手的产品。</text>
+      <g transform="translate(67 270)">
+        <rect width="260" height="28" rx="14" fill="#20291d" stroke="#3c4b31"/>
+        <circle cx="17" cy="14" r="4" fill="#c8ff4d" filter="url(#softGlow)"/>
+        <text x="30" y="19" fill="#b8c5aa" font-size="11" font-family="Consolas, monospace" letter-spacing="1.2">BUILDING USEFUL THINGS</text>
+      </g>
+    </g>
+    <g transform="translate(690 58)">
+      <rect width="440" height="206" rx="14" fill="#101510" stroke="#36422f"/>
+      <rect width="440" height="35" rx="14" fill="#1b2319"/>
+      <rect y="21" width="440" height="14" fill="#1b2319"/>
+      <circle cx="20" cy="17.5" r="4.5" fill="#ff796d"/>
+      <circle cx="35" cy="17.5" r="4.5" fill="#f5c451"/>
+      <circle cx="50" cy="17.5" r="4.5" fill="#7ecb78"/>
+      <text x="326" y="21" fill="#718067" font-size="9" font-family="Consolas, monospace">bdpq@workspace</text>
+      <g font-family="Consolas, monospace" font-size="13">
+        <text x="24" y="65" fill="#6f7e64">$ cat focus.txt</text>
+        <text x="24" y="94" fill="#c8ff4d">
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.18;0.58;0.68;1" dur="9s" repeatCount="indefinite"/>
+          &gt; mobile: Android + Flutter
+        </text>
+        <text x="24" y="120" fill="#c9bcff">
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3;0.4;0.78;0.88;1" dur="9s" repeatCount="indefinite"/>
+          &gt; desktop: Electron + Qt
+        </text>
+        <text x="24" y="146" fill="#f4f7ee">
+          <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.52;0.62;0.96;1;1" dur="9s" repeatCount="indefinite"/>
+          &gt; data: local-first
+        </text>
+        <text x="24" y="180" fill="#6f7e64">$ <tspan fill="#c8ff4d">_</tspan></text>
+      </g>
+    </g>
+    <path d="M0 316H1200" stroke="url(#neon)" stroke-width="3" opacity="0.75"/>
+  </g>
+</svg>
