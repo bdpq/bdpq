@@ -29,14 +29,14 @@
     <g transform="translate(850 55)" filter="url(#shadow)">
       <rect width="294" height="210" rx="3" fill="#2b2118"/>
       <rect x="15" y="15" width="264" height="180" fill="#f4ecdf"/>
-      <circle cx="226" cy="82" r="58" fill="#d95d39">
-        <animate attributeName="r" values="55;60;55" dur="8s" repeatCount="indefinite"/>
+      <circle cx="244" cy="82" r="42" fill="#d95d39">
+        <animate attributeName="r" values="40;44;40" dur="8s" repeatCount="indefinite"/>
       </circle>
       <path d="M39 150H253M39 162H214M39 174H238" stroke="#b7a590" stroke-width="2"/>
       <text x="39" y="49" fill="#2b2118" font-size="11" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">THE MAKING OF</text>
-      <text x="36" y="101" fill="#2b2118" font-size="42" font-family="Georgia, 'Times New Roman', serif" font-weight="700">USEFUL</text>
-      <text x="36" y="136" fill="#2b2118" font-size="42" font-family="Georgia, 'Times New Roman', serif" font-weight="700">THINGS</text>
-      <text x="226" y="88" text-anchor="middle" fill="#fbf7ef" font-size="24" font-family="Georgia, serif" font-style="italic">01</text>
+      <text x="36" y="101" fill="#2b2118" font-size="36" font-family="Georgia, 'Times New Roman', serif" font-weight="700">USEFUL</text>
+      <text x="36" y="136" fill="#2b2118" font-size="36" font-family="Georgia, 'Times New Roman', serif" font-weight="700">THINGS</text>
+      <text x="244" y="89" text-anchor="middle" fill="#fbf7ef" font-size="21" font-family="Georgia, serif" font-style="italic">01</text>
     </g>
     <text x="54" y="307" fill="#7c6958" font-size="10" font-family="Arial, sans-serif" letter-spacing="2.2">ANDROID / FLUTTER / DESKTOP</text>
     <text x="1146" y="307" text-anchor="end" fill="#d95d39" font-size="10" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2.2">EST. 2012</text>
