@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/bdpq/bdpq/4b394981d2959b79538654b921bdb6caf3064b84/assets/header.svg" width="100%" alt="bdpq warm editorial profile banner" />
+<img src="https://raw.githubusercontent.com/bdpq/bdpq/eab0b6b85d741e20ee69d201503f91742857f27c/assets/header.svg" width="100%" alt="bdpq liquid glass editorial banner with flowing color and animated highlights" />
 
 ### 把日常问题，做成顺手的产品。
 
@@ -34,7 +34,7 @@ Android / Flutter 开发者，喜欢把生活里的小麻烦变成真正可用�
 ## 02 / THE TOOLKIT
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/bdpq/bdpq/39c1f69061add67fc8925a1f191dfa3b45d1132c/assets/tech-stack.svg" width="100%" alt="Kotlin Flutter Dart Android Jetpack Compose TypeScript Electron Vue Python SQLite" />
+  <img src="https://raw.githubusercontent.com/bdpq/bdpq/eab0b6b85d741e20ee69d201503f91742857f27c/assets/tech-stack.svg" width="100%" alt="Liquid glass toolkit: Kotlin Flutter Dart Android Jetpack Compose TypeScript Electron Vue Python SQLite" />
 </div>
 
 <p align="center">
@@ -52,7 +52,7 @@ Android / Flutter 开发者，喜欢把生活里的小麻烦变成真正可用�
 ## 03 / COVER STORY
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/bdpq/bdpq/93787e174e661b1c61fe21ae95860bc5855dc781/assets/feature.svg" width="100%" alt="Editorial spread featuring CalendarDiary, Bookkeeping and Stock Monitor" />
+  <img src="https://raw.githubusercontent.com/bdpq/bdpq/eab0b6b85d741e20ee69d201503f91742857f27c/assets/feature.svg" width="100%" alt="Liquid glass editorial spread featuring CalendarDiary, Bookkeeping and Stock Monitor" />
 </div>
 
 ### CalendarDiary — 一本会提醒你的离线日记
@@ -63,7 +63,17 @@ Android / Flutter 开发者，喜欢把生活里的小麻烦变成真正可用�
 
 ---
 
-## 04 / PROJECT INDEX
+## 04 / IN ORBIT
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bdpq/bdpq/eab0b6b85d741e20ee69d201503f91742857f27c/assets/liquid-orbit.svg" width="100%" alt="Animated liquid glass orbit featuring CalendarDiary, Bookkeeping, Stock Monitor, DyDown and QuickDesk" />
+</div>
+
+<sub>有些项目在慢慢长大，有些还在轨道上试验；每一次提交，都是下一次迭代的起点。</sub>
+
+---
+
+## 05 / PROJECT INDEX
 
 | No. | 项目 | 故事 | 技术栈 |
 | :---: | :--- | :--- | :--- |
@@ -81,7 +91,7 @@ Android / Flutter 开发者，喜欢把生活里的小麻烦变成真正可用�
 
 ---
 
-## 05 / BY THE NUMBERS
+## 06 / BY THE NUMBERS
 
 <div align="center">
 
@@ -92,7 +102,7 @@ Android / Flutter 开发者，喜欢把生活里的小麻烦变成真正可用�
 
 ---
 
-## 06 / COLOPHON
+## 07 / COLOPHON
 
 如果有产品灵感、技术交流，或者只是想打个招呼，欢迎联系：
 
@@ -101,6 +111,6 @@ Android / Flutter 开发者，喜欢把生活里的小麻烦变成真正可用�
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/bdpq/bdpq/1be5c59b6afc855a836b77bcd3c0bd3243b6246d/assets/footer.svg" width="100%" alt="Thank you for reading, see you in the next commit" />
+<img src="https://raw.githubusercontent.com/bdpq/bdpq/eab0b6b85d741e20ee69d201503f91742857f27c/assets/footer.svg" width="100%" alt="Liquid glass thank you footer with flowing color and moving highlights" />
 
 </div>
